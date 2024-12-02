@@ -1,53 +1,52 @@
 [
     {
       "id": 1,
-      "cover": "https://ibb.co.com/WWTjMrr",
+      "cover": "https://i.ibb.co.com/GvhN8ZZ/one.jpg",
       "title": "Exploring the Stars: A Journey Through Space",
-      "author_img": "https://ibb.co.com/zSLv3KD",
+      "author_img": "https://i.ibb.co.com/BBk0Xv9/boy1.png",
       "author": "Jane Doe",
       "posted_date": "2024-11-30",
       "reading_time": 8,
-      "hashtags": ["#space", "#astronomy", "#science", "#exploration"]
+      "hashtags": ["#space", "#astronomy"]
     },
     {
       "id": 2,
-      "cover": "https://ibb.co.com/Q9HFnWK",
+      "cover": "https://i.ibb.co.com/y0kn5zQ/two.jpg",
       "title": "The Art of Minimalist Living",
-      "author_img": "https://ibb.co.com/zSLv3KD",
+      "author_img": "https://i.ibb.co.com/bP8SST5/boy2.jpg",
       "author": "John Smith",
       "posted_date": "2024-11-25",
       "reading_time": 6,
-      "hashtags": ["#minimalism", "#lifestyle", "#declutter", "#simplicity"]
+      "hashtags": ["#minimalism", "#lifestyle"]
     },
     {
       "id": 3,
-      "cover": "https://ibb.co.com/17DHzgX",
+      "cover": "https://i.ibb.co.com/0mgPs79/three.jpg",
       "title": "Mastering the Digital Nomad Lifestyle",
-      "author_img": "https://ibb.co.com/MMdft05",
+      "author_img": "https://i.ibb.co.com/dgd64DP/girl1.jpg",
       "author": "Emily Carter",
       "posted_date": "2024-11-20",
       "reading_time": 10,
-      "hashtags": ["#digitalnomad", "#travel", "#remotework", "#adventure"]
+      "hashtags": ["#digitalnomad", "#travel"]
     },
     {
       "id": 4,
-      "cover": "https://ibb.co.com/4RCwGFT",
+      "cover": "https://i.ibb.co.com/wh8ZXdW/four.jpg",
       "title": "10 Tips for Better Mental Health",
-      "author_img": "https://ibb.co.com/jWmw6cX",
+      "author_img": "https://i.ibb.co.com/0jQ0Cyb/girl2.jpg",
       "author": "Michael Brown",
       "posted_date": "2024-11-15",
       "reading_time": 5,
-      "hashtags": ["#mentalhealth", "#selfcare", "#wellness", "#mindfulness"]
+      "hashtags": ["#mentalhealth", "#selfcare"]
     },
     {
       "id": 5,
-      "cover": "https://ibb.co.com/3SkqvY7",
+      "cover": "https://i.ibb.co.com/L9vWrh8/five.jpg",
       "title": "The Rise of Electric Vehicles",
-      "author_img": "https://ibb.co.com/2t1rzhP",
+      "author_img": "https://i.ibb.co.com/bP8SST5/boy2.jpg",
       "author": "Sophia Lee",
       "posted_date": "2024-11-10",
       "reading_time": 7,
-      "hashtags": ["#electricvehicles", "#technology", "#sustainability", "#innovation"]
+      "hashtags": ["#electricvehicles", "#technology", "#innovation"]
     }
   ]
-  
