@@ -48,5 +48,35 @@
       "posted_date": "2024-11-10",
       "reading_time": 7,
       "hashtags": ["#electricvehicles", "#technology", "#innovation"]
+    },
+    {
+      "id": 6,
+      "cover": "https://i.ibb.co.com/0mgPs79/three.jpg",
+      "title": "Mastering the Digital Nomad Lifestyle",
+      "author_img": "https://i.ibb.co.com/dgd64DP/girl1.jpg",
+      "author": "Emily Carter",
+      "posted_date": "2024-11-20",
+      "reading_time": 10,
+      "hashtags": ["#digitalnomad", "#travel"]
+    },
+    {
+      "id": 7,
+      "cover": "https://i.ibb.co.com/wh8ZXdW/four.jpg",
+      "title": "10 Tips for Better Mental Health",
+      "author_img": "https://i.ibb.co.com/0jQ0Cyb/girl2.jpg",
+      "author": "Michael Brown",
+      "posted_date": "2024-11-15",
+      "reading_time": 5,
+      "hashtags": ["#mentalhealth", "#selfcare"]
+    },
+    {
+      "id": 8,
+      "cover": "https://i.ibb.co.com/L9vWrh8/five.jpg",
+      "title": "The Rise of Electric Vehicles",
+      "author_img": "https://i.ibb.co.com/bP8SST5/boy2.jpg",
+      "author": "Sophia Lee",
+      "posted_date": "2024-11-10",
+      "reading_time": 7,
+      "hashtags": ["#electricvehicles", "#technology", "#innovation"]
     }
   ]

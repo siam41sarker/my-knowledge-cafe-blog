@@ -1,14 +1,21 @@
+import { useState } from 'react'
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
-import Bookmark from './components/Bookmarks/Bookmark'
 import Header from './components/Header/Header'
+import Bookmarks from './components/Bookmarks/Bookmarks';
  export default function App() {
+  const [bookmark,setBookmark] = useState([]);
+  const handleBookMark = blog =>
+      {
+          const newBookMark = [...bookmark,blog]
+          setBookmark(newBookMark)
+      }
   return (
     <>
         <Header></Header>
-        <main className='md:flex mt-8'>
-            <Blogs></Blogs>
-            <Bookmark></Bookmark>
+        <main className='md:flex mx-auto max-w-6xl mt-8'>
+            <Blogs handleBookMark={handleBookMark} ></Blogs>
+            <Bookmarks bookmark={bookmark}></Bookmarks>
         </main>
     </>
   )
