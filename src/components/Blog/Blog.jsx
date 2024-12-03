@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 import { IoBookmarkOutline } from "react-icons/io5";
-const Blog = ({blog,handleBookMark}) => {
+const Blog = ({blog,handleBookMark,handleSpentTime}) => {
     const {cover,author_img,author,posted_date,reading_time,title,hashtags} = blog;
     const [isDisabled,setIsDisabled] = useState(false);
+    const [markDisabled,setMarkDisabled] = useState(false);
+    const handleMarkButton = ()=>setMarkDisabled(true);
     const DisableButton = ()=>setIsDisabled(true);
     return (
         <div className='w-[96%]'>
@@ -34,7 +36,10 @@ const Blog = ({blog,handleBookMark}) => {
                 {hashtags.map((hash,index)=><span className='mr-4' key={index}><a className='text-[rgba(17,17,17,0.6)] text-xl font-medium' href="#">{hash}</a></span>)}
             </div>
             <div className='mt-5 mb-9'>
-                <button onClick={handleBookMark} className='text-[rgb(96,71,236)] text-xl font-semibold' ><u>Mark as read</u></button>
+                <button disabled={markDisabled} onClick={()=>{
+                    handleMarkButton();
+                    handleSpentTime(blog);
+                }} className={markDisabled?'text-[#ff3333] text-xl font-semibold':'text-[rgb(96,71,236)] text-xl font-semibold'}><u>{markDisabled?'Marked as read':'Mark as read'}</u></button>
             </div>
             <hr className='mb-10' />
         </div>
@@ -44,6 +49,6 @@ const Blog = ({blog,handleBookMark}) => {
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
     handleBookMark:PropTypes.func.isRequired,
-    isDisabled:PropTypes.bool.isRequired
+    handleSpentTime:PropTypes.func.isRequired
 }
 export default Blog;
