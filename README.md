@@ -1,8 +1,8 @@
 # Knowledge Cafe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website is all about my personal blog. My touring experiences are highlighted in this site. I love to travel.
 
-Currently, two official plugins are available:
+Currently, two official sites are available:
 
 - https://plausible-pipe.surge.sh/
 - https://knowledge-cafe-by-siam-sarker.netlify.app/
