@@ -8,11 +8,11 @@ import Bookmarks from './components/Bookmarks/Bookmarks';
   const [spentTime,setSpentTime] = useState(0);
   const handleSpentTime = blog =>
         {
-            console.log("Blog:");
-            console.log(blog);
             let newTime = spentTime+blog.reading_time;
             console.log(newTime);
             setSpentTime(newTime);
+            const remaining_bookmark = bookmark.filter(book=>book.id!== blog.id);
+            setBookmark(remaining_bookmark);
         }
   const handleBookMark = blog =>
       {
